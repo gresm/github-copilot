@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle github-copilot",
+        "command": "github-copilot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "github-copilot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "github-copilot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
